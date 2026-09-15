@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta>
+    <title>TimeTable</title>
+</head>
+<style>
+    * {
+        background-color: lightblue;
+        text-align: center;
+        font-size: large;
+    }
+
+
+    table,
+    tr,
+    th,
+    td {
+        border: 5px groove slateblue;
+        border-collapse: collapse;
+        color: black;
+        padding: 5px;
+
+    }
+
+    tr:first-child {
+        font-weight: bold;
+        color: white;
+        background-color: aliceblue;
+    }
+
+    tr:first-child>td {
+        background-color: khaki;
+    }
+
+    tr:nth-child(2)>td {
+        background-color: #bbbbbb;
+    }
+
+    tr:nth-child(2)>td:nth-child(2){
+        font-weight: bold;
+        background-color: lightgreen;
+    }
+    tr:nth-child(2)>td:nth-child(4){
+        font-weight: bold;
+        background-color: lightgreen;
+    }
+    tr:nth-child(3)>td {
+        background-color: #aaaaaa;
+    }
+    tr:nth-child(3)>td:nth-child(5){
+        background-color: lightgreen;
+        font-weight: bold;
+    }
+    tr:nth-child(4)>td {
+        background-color: #aaaaaa;
+    }
+    tr:nth-child(4)>td:nth-child(4){
+        background-color: lightgreen;
+        font-weight: bold;
+    }
+    tr:nth-child(5)>td {
+        background-color: #aaaaaa;
+    }
+    tr:nth-child(5)>td:nth-child(3){
+        background-color: lightgreen;
+        font-weight: bold;
+    }
+    tr:nth-child(5)>td:nth-child(5){
+        background-color: lightgreen;
+        font-weight: bold;
+    }
+    tr:nth-child(6)>td {
+        background-color: #aaaaaa;
+    }
+
+    table {
+        margin: 4% 7% 0% 10%;
+    }
+
+    th {
+        background-color: lightyellow
+    }
+
+    div {
+        background-color: yellow;
+        position: relative;
+        top: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+</style>
+
+<body>
+    <div>
+        <caption>
+            TimeTable Sp-23 (Section A)
+        </caption>
+    </div><br>
+    <table>
+        <tr>
+            <th>
+                Time
+            </th>
+            <td>
+                9:00 - 10:20
+            </td>
+            <td>
+                10:20 - 10:50
+            </td>
+            <td>
+                10:50 - 11:40
+            </td>
+            <td>
+                11:40 - 1:00
+            </td>
+            <td>
+                1:00 - 2:20
+            </td>
+            <td>
+                2:20 - 3:10
+            </td>
+            <td>
+                3:10 - 3:40
+            </td>
+            <td>
+                3:10 - 4:00
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Monday
+            </th>
+            <td>
+                Free
+            </td>
+            <td colspan="2">
+                SNA <br> Room 32 NB
+            </td>
+            <td>
+                Free
+            </td>
+            <td>
+                AoA <br> Room 30 NB
+            </td>
+            <td colspan="2">
+                Calculus <br> Lab 24 OB
+            </td>
+            <td>
+
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Tuesday
+            </th>
+            <td>
+                Calculus <br> Room 17 NB
+            </td>
+            <td colspan="2">
+                SNA <br> Room 31 NB
+            </td>
+            <td>
+                Expository English <br> Room 30 NB
+            </td>
+            <td>
+                Free
+            </td>
+            <td>
+                COAL <br> Room 32 NB
+            </td>
+            <td colspan="2">
+                Intro to Management <br> Room 32 NB
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Wednesday
+            </th>
+            <td>
+                COAL <br> Lab 24 OB
+            </td>
+            <td colspan="2">
+                COAL <br> Lab 24 OB
+            </td>
+            <td>
+                Free
+            </td>
+            <td>
+                Expository English <br> Room 27 NB
+            </td>
+            <td>
+                Intro to Management <br> Room 05 NB
+            </td>
+            <td colspan="2">
+
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Thursday
+            </th>
+            <td>
+                AoA <br> Room 30 NB
+            </td>
+            <td>
+                Free
+            </td>
+            <td>
+                COAL <br> Room 71 OB
+            </td>
+            <td>
+                Free
+            </td>
+            <td>
+                SNA <br> Lab 24 OB
+            </td>
+            <td colspan="2">
+                SNA <br> Lab 24 OB
+            </td>
+            <td>
+
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+                Friday
+            </th>
+            <td>
+                Linear Algebra <br> Room 11 NB
+            </td>
+            <td colspan="2">
+                Linear Algebra <br> Room 11 NB
+            </td>
+            <td colspan="5">
+
+            </td>
+
+        </tr>
+    </table>
+</body>
+
+</html>
